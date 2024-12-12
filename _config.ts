@@ -7,6 +7,8 @@ const site = lume({
   location: new URL("https://gim.garden"),
 });
 
+site.copy("_static", ".");
+
 site
   .use(basePath())
   .use(jsx())
