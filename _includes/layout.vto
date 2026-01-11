@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<title>{{ title }}</title>
+</head>
+<body style="display: flex; justify-content: center;">
+	<nav style="position: fixed; top: 0; left: 1em;">
+		<details>
+			<summary></summary>
+			{{ for page of search.pages() }}
+			<li>
+				<a href="{{ page.url }}">{{ page.title || 'Untitled' }}</a>
+			</li>
+			{{ /for }}
+		</details>
+	</nav>
+	<main style="width: 100%; max-width: 48em;">
+		{{ content }}
+	</main>
+</body>
+</html>
