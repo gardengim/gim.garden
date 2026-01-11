@@ -5,14 +5,16 @@ title: Projects
 So these are projects that are
 
 # Actively working on 
-- Synchro
-- [gim.garden](https://gim.garden)
-
-# Inactively working on
-- Nativize
+- [gim.garden](https://gim.garden) (... apparently)
 - X Programming Language
 
+# Inactively working on
+- [Nativize](https://github.com/nativize)
+- Synchro
+
 # Interested/Planning to work on
-- Crank-powered camera
-- Unnamed Linux
-- NeoGL
+- Kim (Development Environment)
+- Crank-powered (baterry-less) camera
+- Ground Penetrating Radar Equipment
+- Unnamed Linux (Linux Distro)
+- NeoGL (Modernized OpenGL)
